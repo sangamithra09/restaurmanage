@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 const login1 = () => {
     
   return (
-    <div className='container'>
+    <div className="container">
       <div classsName="header" id="header">
         <div className="text" id="text">Login</div>
         <div classname="underline" id="underline"></div>
@@ -20,7 +20,7 @@ const login1 = () => {
         </div>
       </div>
       <div className="submitcontainer1" id="submit-container1">
-      <div className="submit1" id="submit1">Login</div>
+      <div className="submit1" id="submit1"><Link to="/Home">Login</Link></div>
       </div>
       <div className="submitcontainer2" id="submit-container2">
       <div className="forgot-password">Don't have an account? <span><Link  to="/LoginSignup">Sign Up!</Link></span></div>
