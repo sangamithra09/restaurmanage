@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 const login1 = () => {
     
   return (
+   
     <div className="container">
       <div classsName="header" id="header">
         <div className="text" id="text">Login</div>
@@ -12,7 +13,7 @@ const login1 = () => {
       <div classname='inputs' id="inputs">
         <div className="input">
           <img src="person.png" alt=""></img>
-          <input type="text" placeholder='Enter Your Name'></input>
+          <input type="text" placeholder='Enter Your Name' required></input>
         </div>
         <div className="input">
           <img src="password.png" alt=""></img>
@@ -25,7 +26,7 @@ const login1 = () => {
       <div className="submitcontainer2" id="submit-container2">
       <div className="forgot-password">Don't have an account? <span><Link  to="/LoginSignup">Sign Up!</Link></span></div>
     </div>
-      
+     
     </div>
   )
 }

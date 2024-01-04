@@ -118,9 +118,10 @@ h1, h2,h3 {
     font-size: 25px;
 }
 .card{
-    
+    background: none;
     background-color: #ffffff;
     height: 560px;
+    margin-top: -70px;
 }
 
 .container1 {
@@ -165,6 +166,7 @@ h1, h2,h3 {
   .box img {
     width: 100%;
     height: auto;
+    opacity: 0.4;
     display: block;
     /* transition: transform 0.3s ease-in-out;  */
   }
@@ -177,6 +179,7 @@ h1, h2,h3 {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+ 
     color: rgb(255, 255, 255);
     padding: 30px; /* Adjust padding */
 
@@ -187,7 +190,8 @@ h1, h2,h3 {
     margin: 10px 0;
     margin-top:  20px;
     font-weight: bolder;
-    color: #ffffff;
+    font-size: larger;
+    color: #000000;
   }
   .text-on-image strong{
     font-weight: bold;
@@ -292,6 +296,7 @@ h1, h2,h3 {
 }
 /* Add margin or padding to the anchor tags */
 .flex a {
+  margin-bottom: 14px;
     margin-right: 30px; /* Adjust the right margin as needed */
   }
   

@@ -42,7 +42,7 @@ const Home = () => {
 
     <div class="card">
    
-    <Card sx={{ maxWidth: 355,marginLeft:'90px',borderRadius:'20px',marginTop:'30px',transition: 'transform 0.3s ease-in-out', // Add transition effect
+    <Card sx={{ maxWidth: 355,marginLeft:'90px',borderRadius:'20px',marginTop:'50px',transition: 'transform 0.3s ease-in-out', // Add transition effect
     '&:hover': {
       transform: 'scale(1.05)', // Change scale on hover
       boxShadow: '0 0 10px rgba(0, 0.6, 0, 0.8)', // Add box shadow on hover
